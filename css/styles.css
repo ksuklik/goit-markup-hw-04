@@ -204,7 +204,7 @@ text-decoration: none;
   margin-right: 30px;
  }
 
- .item::before{
+ .moment .item::before{
  content: "";
  display: block;
  height: 120px;
@@ -367,6 +367,10 @@ color: var(--title-text);
  letter-spacing: 0.03em;
  color: rgba(255, 255, 255, 0.6);
  text-decoration: none;
+}
+
+.footer .contanier{
+  display: flex;
 }
 
 /* страница портфолио */
