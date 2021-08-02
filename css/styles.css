@@ -184,9 +184,9 @@ text-decoration: none;
 
 /* Организхационные моменты */
 
-.visually {
+.visually-hidden {
   position: absolute;
-  clip: rect(0000);
+  clip: rect(0 0 0 0);
   width: 1px;
   right: 1px;
   margin: 1px;
@@ -327,6 +327,16 @@ color: var(--title-text);
 }
 
 
+
+ /*Постоянные клиенты*/ 
+ .company-container {
+   display: flex;
+   justify-content: center;
+ }
+
+ 
+
+
 .footer{
   background-color: #2F303A;
   padding-top: 60px;
@@ -457,6 +467,8 @@ color: var(--primary-text-color);
  .element:nth-child(3n){
    margin-right: 0px;
  }
+
+
 
 
 
