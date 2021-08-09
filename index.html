@@ -26,23 +26,21 @@
       </nav>
       <!-- сылка авторизации  -->
       <ul class="auth-link">
-        <li class="item">
-          <a href="#">
-              <svg class="mailto">
+        <li class="item">             
+          <a href="mailto:info@devstudio.com" class="link">
+            <svg class="mailto">
               <use href="./img/sprite.svg#icon-envelope-hover"></use>
             </svg>
+            info@devstudio.com
           </a>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
         </li>
         <li class="item">
-          <a href="#">
+          <a href="tel:+380961111111" class="link">
             <svg class="phone">
               <use href="./img/sprite.svg#icon-smartphone"></use>
             </svg>
+             +380961111111
           </a>
-          <a href="tel:+380961111111" class="link">+380961111111</a>
         </li>
       </ul>
      </div>
@@ -63,7 +61,12 @@
        <div class="container">
         <h2 class="visually-hidden">Организационные моменты</h2>
         <ul class="moment">
-          <li class="item icon-antenna">
+          <li class="item">
+            <div class="features-box">
+               <svg class="features-icon">
+                   <use href="./img/sprite.svg#icon-antenna"></use>
+                 </svg>
+              </div>
             <h3 class="features-title">Внимание к деталям</h3>
             <p class="features-description">
               Идейные соображения, а также начало повседневной работы по
@@ -71,6 +74,11 @@
             </p>
           </li>
           <li class="item icon-clock">
+             <div class="features-box">
+               <svg class="features-icon">
+                   <use href="./img/sprite.svg#icon-clock"></use>
+                 </svg>
+            </div>
             <h3 class="features-title">Пунктуальность</h3>
             <p class="features-description">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -78,6 +86,11 @@
             </p>
           </li>
           <li class="item icon-diagram">
+             <div class="features-box">
+               <svg class="features-icon">
+                   <use href="./img/sprite.svg#icon-diagram"></use>
+                 </svg>
+              </div>
             <h3 class="features-title">Планирование</h3>
             <p class="features-description">
               Равным образом консультация с широким активом в значительной
@@ -85,6 +98,11 @@
             </p>
           </li>
           <li class="item icon-astronaut">
+             <div class="features-box">
+               <svg class="features-icon">
+                   <use href="./img/sprite.svg#icon-astronaut"></use>
+                 </svg>
+              </div>
             <h3 class="features-title">Современные технологии</h3>
             <p class="features-description">
               Значимость этих проблем настолько очевидна, что реализация
@@ -98,7 +116,7 @@
        <!--Чем мы занимаемся --> 
 
       <section class="work section">
-        <div class="container ">
+        <div class="container">
         <h2 class="work-title">Чем мы занимаемся</h2>
         <ul class="work-container">
           <li class="work-img">
@@ -124,8 +142,7 @@
             <img src="./img/img.jpg" alt="" width="270" />
             <div class="our-team-info">
               <h3 class="our-team-name">Игорь Демьяненко</h3>
-               <p class="our-team-job">Product Designer</p>
-               <div class="network">
+               <p class="our-team-job">Product Designer</p>               
                   <ul class="network-list">
               <li class="network-item">
                 <a class="network-link" href="#">
@@ -155,8 +172,7 @@
                   </svg>
                 </a>
               </li>
-            </ul>
-               </div>
+            </ul>            
             </div>
           </li>
           <li class="our-team-men">
@@ -164,7 +180,6 @@
             <div class="our-team-info">
               <h3 class="our-team-name">Ольга Репина</h3>
               <p class="our-team-job">Frontend Developer</p>
-              <div class="network">
                   <ul class="network-list">
               <li class="network-item">
                 <a class="network-link" href="#">
@@ -194,8 +209,7 @@
                   </svg>
                 </a>
               </li>
-            </ul>
-               </div>
+            </ul>              
             </div>
           </li>
           <li class="our-team-men">
@@ -203,7 +217,6 @@
             <div class="our-team-info">
               <h3 class="our-team-name">Николай Тарасов</h3>
               <p class="our-team-job">Marketing</p>
-              <div class="network">
                   <ul class="network-list">
               <li class="network-item">
                 <a class="network-link" href="#">
@@ -235,14 +248,12 @@
               </li>
             </ul>
                </div>
-            </div>
           </li>
           <li class="our-team-men">
             <img src="./img/3.jpg" alt="" width="270" />
             <div class="our-team-info">
               <h3 class="our-team-name">Михаил Ермаков</h3>
               <p class="our-team-job">UI Designer</p>
-              <div class="network">
                   <ul class="network-list">
               <li class="network-item">
                 <a class="network-link" href="#">
@@ -273,7 +284,6 @@
                 </a>
               </li>
             </ul>
-               </div>
             </div>
           </li>
         </ul>
@@ -281,7 +291,7 @@
       </section>
       <section class="section company">
         <div class="container">
-            <h3 class="company-title">Постоянные клиенты</h3>
+            <h2 class="company-title">Постоянные клиенты</h2>
             <ul class="company-container">
               <li class="company-item">
                 <a href="#" class="company-button">
